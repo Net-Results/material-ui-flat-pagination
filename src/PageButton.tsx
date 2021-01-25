@@ -38,20 +38,20 @@ const styles = (theme: Theme) =>
       minWidth: 16,
     },
     rootCurrent: {
-      paddingLeft: theme.spacing(2),
-      paddingRight: theme.spacing(2),
-    },
-    rootEllipsis: {
       paddingLeft: theme.spacing(1),
       paddingRight: theme.spacing(1),
     },
+    rootEllipsis: {
+      paddingLeft: theme.spacing(0),
+      paddingRight: theme.spacing(0),
+    },
     rootEnd: {
-      paddingLeft: theme.spacing(2),
-      paddingRight: theme.spacing(2),
+      paddingLeft: theme.spacing(1),
+      paddingRight: theme.spacing(1),
     },
     rootStandard: {
-      paddingLeft: theme.spacing(2),
-      paddingRight: theme.spacing(2),
+      paddingLeft: theme.spacing(1),
+      paddingRight: theme.spacing(1),
     },
     label: {},
     text: {},
@@ -88,8 +88,8 @@ const styles = (theme: Theme) =>
       paddingRight: theme.spacing(2),
     },
     sizeLargeEllipsis: {
-      paddingLeft: theme.spacing(1),
-      paddingRight: theme.spacing(1),
+      paddingLeft: theme.spacing(0),
+      paddingRight: theme.spacing(0),
     },
     sizeLargeEnd: {
       paddingLeft: theme.spacing(2),
